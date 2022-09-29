@@ -1,0 +1,22 @@
+.product {
+    margin: 0;
+    overflow: auto;
+}
+
+.product__price {
+    display: inline-block;
+    line-height: 34px;
+}
+
+.mr-1{
+    margin-right: 1rem;
+}
+
+.product.thumbnail a{
+    color: #000;
+    font-size: 24px;
+}
+
+.product img:hover{
+    cursor: pointer;
+}

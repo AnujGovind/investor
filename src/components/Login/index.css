@@ -1,0 +1,210 @@
+.login-bg {
+    margin-left: -80px;
+    height: 100%;
+  }
+  .login-text {
+    text-align: left;
+    font-size: 28px;
+    color: #4b286d;
+    font-family: "HelveticaNeue-Th";
+    /* margin-left: -4px; */
+    margin-top: 1rem;
+    line-height: 1.5;
+    float: right;
+  }
+  .login-heading {
+    color: #54595f;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .login-sub-heading {
+    color: #2a2c2e;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .login-form-container {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding-top: 2rem;
+    background-color: #fff;
+    /* letter-spacing: 0.61px; */
+    height: 100%;
+    z-index: 10;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .login-label-txt {
+    color: #2a2c2e;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  .login-input[type="text"],
+  .login-input[type="password"] {
+    height: 2.25rem;
+    border-radius: 4px;
+    background-color: #ffffff;
+    width: 12% !important;
+    padding: 0 10px;
+    outline: none;
+    border-style: none;
+    border: 1px solid #54595F ;
+    min-width: 20rem;
+  }
+  input.login-input:disabled {
+    background-color: gainsboro;
+  }
+  .login-btn {
+    height: 2.5rem;
+    min-width: 100px;
+    border-radius: 4px;
+    background-color: #248700;
+    color: #fff;
+    font-size: 16px;
+    border: 0px solid transparent;
+    outline: none;
+    cursor: pointer;
+    font-family: 'HelveticaNeue-Md';
+    padding: 0 1rem;
+  }
+  .error-txt {
+    color: #c12335;
+    display: inline-block;
+    font-size: 14px;
+  }
+  .login-label-txt sup {
+    color: #c12335;
+    font-size: 18px;
+    display: contents;
+  }
+  .login-footer {
+    /* background-color: #4b286d; */
+    width: 50%;
+    padding: 0.5rem 0 0 0;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    
+  }
+  .login-footer-txt {
+    /* color: #ffffff; */
+    color: #54595f;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    margin-right: 1rem;
+  }
+  .underline {
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  .submit-btn {
+    width: 100%;
+  }
+  .forgot-text {
+    display: block;
+    font-size: 28px;
+    color: #4b286d;
+    font-family: "HelveticaNeue-Lt";
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  .enter-text {
+    color: #2a2c2e;
+    font-family: "HelveticaNeue-Roman";
+    line-height: 36px;
+    display: block;
+  }
+  .underline {
+    text-decoration-line: underline;
+    cursor: pointer;
+  }
+  .go-back a,
+  .go-back {
+    color: #2a2c2e;
+    text-decoration-line: underline;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "HelveticaNeue-Roman";
+  }
+  .go-back a:hover {
+    color: #248700 !important;
+  }
+  
+  .register-link {
+    display: inline-block;
+    margin-left: 16px;
+  }
+  
+  .register-link a{
+    font-family: "HelveticaNeue-Md" !important;
+    text-decoration: none;
+  }
+  
+  @media only screen and (min-width: 1400px) and (max-width: 5024px) {
+    .login-footer{position: fixed}
+  }
+  
+  .required-star{
+      /* position: absolute; */
+      margin: 1rem .5rem;
+      color: red;
+      font-size: 1rem;
+      cursor: pointer;
+  }
+  
+  .login-input[type="text"]:focus, .login-input[type="password"]:focus{
+    border: 1px solid white !important;
+    box-shadow: 0px 0px 4px #71757b;
+    color: #2a2c2e;
+    outline: none;
+  }
+  
+  .large-popup .popup-body .login-bg {
+    margin-left: 0px;
+  }
+  .large-popup .popup-body .login-form-container {
+   margin: .53rem auto;
+   padding-top: 0px
+  }
+  
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .login-input[type="text"],
+  .login-input[type="password"] {
+    width: 93%;
+  }
+  }
+  
+  .login-container{
+    height: calc(100vh - 60px);
+  }
+  .telus-logo{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .login-bg .login-page-image{
+      position: absolute;
+      bottom: 0;
+      margin-left: 40px;
+      z-index: -1;
+  }
+  
+  .login-btn:hover{
+    border: 1px solid #248700;
+    color: #248700;
+    background-color: #fff;
+  }
+  .login-btn:focus{
+    outline: none;
+  }
+  .login-main .row{
+    margin-right: 0px;
+    margin-top: 3rem;
+  }
+  .pt-6{
+      padding-top: 4rem;
+  }

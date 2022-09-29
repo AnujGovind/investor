@@ -1,0 +1,5 @@
+.tcell:nth-child(even) {background: #F7F7F8}
+
+.action-icon:nth-child(even){
+    margin: 0 6px;
+}

@@ -1,0 +1,31 @@
+.align-self-center{
+  position: relative;
+}
+
+.pad05 {
+  padding: 0.5rem;
+}
+
+.right-side-items{
+  display: flex;
+  min-width: 11%;
+  justify-content: flex-end;
+ 
+}
+
+.row-items{
+    width: 60%;
+    margin: 0 auto !important;
+}
+
+.fixed-top-header .row-items .name-info{
+  font-family: "HelveticaNeue-lt";
+    font-size: 1.2rem;
+    color: #4b286d;
+}
+
+.fixed-top-header .row-items .agent-info{
+  font-family: "HelveticaNeue-md";
+    font-size: 0.8rem;
+    color: #54595F;
+}

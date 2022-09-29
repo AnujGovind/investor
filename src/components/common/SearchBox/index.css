@@ -1,0 +1,134 @@
+.search-container {
+    display: inline-flex;
+    width: 100%;
+    position: absolute;
+    right: 18rem;
+    top: 0.5rem;
+}
+
+.w-sm {
+    width: 40% !important;
+}
+
+.w-md {
+    width: 55% !important;
+}
+
+.w-lg {
+    width: 70% !important;
+}
+
+.search-input {
+    display: flex;
+    flex-direction: column;
+    border: .5px solid #d8d8d8;
+    width: calc(100% - 53px);
+    padding: 8px 70px 8px 8px;
+    outline: 0px;
+    opacity: 1;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.search-input::placeholder {
+    color: grey;
+    font-weight: 500;
+    opacity: .5;
+}
+
+.search-button {
+    border: 1px solid #d8d8d8;
+    font-weight: 300;
+    padding: .4rem .5rem;
+    background: transparent;
+    color: #54595f;
+    outline: 0px !important;
+    height:2.25rem;
+    cursor: pointer;
+    border-left: 1px solid #d8d8d8;
+    width:45px;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.close-icon {
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: -1.9rem;
+    margin-top: .6rem;
+    border: none;
+}
+.input-grp-pos{
+    position: absolute;
+    left: 15rem;
+}
+.input-grp-pos .cross-icon{
+    border:none;
+    background:transparent;
+    outline:none;
+    position: absolute;
+    cursor:pointer;
+    width: 15px;
+    height: 15px;
+    display:inline-block;
+    background-repeat: round;
+    background-image: url("../../../assets/images/cross-icon.svg");
+}
+.search-container .input-grp-pos .cross-icon{
+    margin-bottom: .8rem;
+    margin-left: -1rem;
+}
+/* .search-container .input-grp-pos{
+    margin-right: -0.5rem;
+} */
+.close-icon:after {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    z-index: 1;
+    padding: 2px;
+    text-align: center;
+    color: grey;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+.search-input:not(:valid) ~ .close-icon {
+    display: none;
+}
+.erroralignment{
+    position: absolute;
+    margin-top: -.4rem;
+}
+.search-input-border{
+    border: 1px solid #d8d8d8;
+    margin-top:0.8em;
+}
+.search-button-pos{
+    margin-top:0.8em;
+    margin-left: 0.5rem !important;
+}
+
+.search-button .svg-inline--fa{
+    vertical-align: -0.2rem;
+}
+
+.search-container .search-input{
+   width: 15.5rem;
+}
+
+.search-input:focus + span :last-child {
+    box-shadow: 0px 0px 3px #71757b;
+}
+
+.search-img{
+    box-shadow: none !important;
+}
+
+.search-input:focus {
+    box-shadow: 0px 0px 3px #71757b !important;
+}

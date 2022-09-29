@@ -1,0 +1,58 @@
+.page-heading-section{
+  display: inline-flex;
+  justify-content: space-between;
+  background: inherit;
+  
+  .page-heading{
+    align-items: center;
+    .backbtn-heading{
+      display: flex;
+    }
+  }
+  .page-heading-actions{
+    display: flex;
+    align-items: center;
+    &>*{
+      margin-right: 15px;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
+h4 {
+  color: rgb(75, 40, 109);
+  font-weight: 400 !important;
+  line-height: 1.5rem;
+  font-size: x-large !important; 
+  margin-top: 0.7rem !important;
+  // margin-left: 1rem !important;
+}
+.bckBtn{
+  margin-top: 0.6rem !important;
+  color: rgb(75, 40, 109);
+  margin-left: -11px;
+  cursor: pointer;
+  
+}
+
+.postn{
+  position: unset
+}
+
+.backbtn-heading h6 {
+  color: #7F7D7A;
+  font-weight: 400 !important;
+  line-height: 1.5rem;
+  font-size: x-small !important; 
+  margin-top: 1.2rem !important;
+  margin-left: .5rem !important;
+}
+
+.page-heading-subtitle{
+  font-size: smaller;
+  color: #7F7D7A;
+  margin: -1rem 0 .5rem 0;
+}
